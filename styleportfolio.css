@@ -1,0 +1,124 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    align-content: center;
+}
+h1 {
+    background-image: url("backtext.png");
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h1, h2, h3 {
+    text-align: center;
+    color: dimgray;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.container {
+    padding-left: 180px;
+    padding-right: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    -ms-flex-align: end;
+    text-align: center;
+
+}
+
+.back {
+    background-color: tomato;
+}
+
+.text_content {
+    padding: 3%;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    background-color: tomato;
+    
+}
+
+img {
+    float:left;
+
+}
+
+.projects {
+    background-image: url(project.jpeg);
+    background-color: white;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+
+}
+
+.fade {
+    opacity: 1;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 2s;
+    
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+
+}
+
+.reference {
+    list-style: none;
+    list-style-type: none;
+}
+
+.skills {
+    list-style: none;
+}
+
+.context {
+    background-image: url(code.png);
+    background-color: white;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.context {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+.bottom {
+    background-color:blue;
+    color: aliceblue;
+}
+
+.social_link a:hover {
+	color: white;
+	
+}
+.social_link {
+    list-style: none;
+}
+@media (max-width: 768px) {
+    body {
+        align-content: flex-start;
+        margin: 0%;
+        padding: 0%;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
