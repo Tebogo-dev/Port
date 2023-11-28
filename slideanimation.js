@@ -1,14 +1,3 @@
-const http = require("http");
-
-const server = http.createServer((req, res) => {
-    res.writeHead(2330);
-    res.end("hello world");
-});
-
-server.listen(433320, () => {
-    console.log("server running on 433320");
-});
-
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         console.log(entry)
