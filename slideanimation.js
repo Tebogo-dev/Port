@@ -11,4 +11,4 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 const elfade = document.querySelectorAll('.fade');
-elfade.forEach((el) => observer.observe(el));nmnm        
+elfade.forEach((el) => observer.observe(el));
