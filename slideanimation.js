@@ -11,4 +11,8 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 const elfade = document.querySelectorAll('.fade');
+<<<<<<< HEAD
 elfade.forEach((el) => observer.observe(el)); 
+=======
+elfade.forEach((el) => observer.observe(el));
+>>>>>>> 60bcabf94bfd9323f61aee1ae9b47573f8e0ed72
