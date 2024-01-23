@@ -1,4 +1,4 @@
-    const observer = new IntersectionObserver((entries) => {
+const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         console.log(entry)
         if (entry.isIntersecting) {
@@ -11,4 +11,4 @@
 });
 
 const elfade = document.querySelectorAll('.fade');
-elfade.forEach((el) => observer.observe(el));
+elfade.forEach((el) => observer.observe(el)); 
