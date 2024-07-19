@@ -1,1 +1,1 @@
-alert("View me on a PC please");
+alert("Please view me on a PC");
