@@ -14,4 +14,7 @@ const observer = new IntersectionObserver((entries) => {
 
 const elfade = document.querySelectorAll('.fade');
 elfade.forEach((el) => observer.observe(el));nmnm        
+<<<<<<< HEAD
+>>>>>>> parent of c8ec2ae (Update slideanimation.js)
+=======
 >>>>>>> parent of c8ec2ae (Update slideanimation.js)
