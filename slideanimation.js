@@ -9,3 +9,9 @@ const observer = new IntersectionObserver((entries) => {
         }
     });
 });
+<<<<<<< HEAD
+=======
+
+const elfade = document.querySelectorAll('.fade');
+elfade.forEach((el) => observer.observe(el));nmnm        
+>>>>>>> parent of c8ec2ae (Update slideanimation.js)
